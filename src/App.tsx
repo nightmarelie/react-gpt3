@@ -1,5 +1,7 @@
 import React from "react";
 
+export { Article, Brand, CTA, Feature, Navbar } from "./components";
+
 function App() {
   return (
     <div className="App">
