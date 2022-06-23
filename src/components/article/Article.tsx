@@ -1,6 +1,12 @@
-import React from "react";
+import React, { FC } from "react";
 import "./styles.css";
 
-export const Article = () => {
+type Props = {
+  imgUrl: string;
+  date: string;
+  text: string;
+};
+
+export const Article: FC<Props> = ({ imgUrl, date, text }) => {
   return <div>Article</div>;
 };
