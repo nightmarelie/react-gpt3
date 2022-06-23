@@ -1,6 +1,11 @@
-import React from "react";
+import React, { FC } from "react";
 import "./styles.css";
 
-export const Feature = () => {
+type Props = {
+  title: string;
+  text: string;
+};
+
+export const Feature: FC<Props> = ({ title, text }) => {
   return <div>Feature</div>;
 };
